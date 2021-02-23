@@ -202,3 +202,8 @@ end
 
 
 # player_numbers("Charlotte Hornets")
+
+# .each 
+# .map
+# .select
+# .find
