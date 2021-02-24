@@ -2,13 +2,17 @@ require 'pry'
 
 class Human
     # class is a grouping of behavior and data 
+
+    # @@ denotes a class variable
+    # variable accessible to a class
     @@all = []
+
     # def name(new_name)
     #     @name = new_name
     # end
 
     def initialize(name="No name :(", age, hobby)
-        # set up variables that belong to a single object
+        # set up instance variables that belong to a single object
         #  'intialize' runs upon creation of EVERY instance
         @name = name
         @age = age
