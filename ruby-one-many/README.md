@@ -11,9 +11,9 @@
 
 ## Deliverables
 
-* Create a Artist class. The class should have these methods:
+<!-- * Create a Artist class. The class should have these methods:
   * `#initialize` which takes a name and have
-  * a reader method for the name
+  * a reader method for the name -->
   * `#songs` that returns an array of Song instances
   * `#write_song` that takes a song name, creates a new song, and adds it to the artist's song collection
 * Create a Song class. The class should have these methods:

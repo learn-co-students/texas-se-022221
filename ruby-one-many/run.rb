@@ -14,5 +14,4 @@ song2 = Song.new("Hydration", nestor)
 song3 = Song.new("Pray", angelo)
 binding.pry
 0
-
 puts "Run rb file has run"
