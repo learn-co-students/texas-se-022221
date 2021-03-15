@@ -1,0 +1,9 @@
+<%# embedded ruby %>
+<h1>This is my index page for artists</h1>
+
+<ul>
+<% binding.pry %>
+<% @artists.each do | artist | %>
+<li> <%=artist.name %> </li>
+<% end %>
+</ul>
