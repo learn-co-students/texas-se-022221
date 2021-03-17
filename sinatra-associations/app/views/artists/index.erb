@@ -1,0 +1,13 @@
+<%# embedded ruby %>
+<h1>This is my index page for artists</h1>
+
+<ul>
+<% @artists.each do | artist | %>
+<a href="/artists/<%=artist.id%>"> <li> <%=artist.name %> </li></a>
+<% end %>
+</ul>
+
+
+<br>
+
+<a href="/create_artist">Create an Artist</a>

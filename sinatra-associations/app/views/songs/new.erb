@@ -1,0 +1,16 @@
+<h1>This is my new song form</h1>
+
+<form action ="/songs" method="post">
+<label> Artist </label>
+<select name="artist_id">
+<% @artists.each do  | artist | %>
+    <option value=<%= artist.id%> >  <%= artist.name%>    </option>
+<% end %>
+</select>
+<br>
+<label> Song Name </label>
+<input type= "text" name="title">
+<br>
+<input type="submit">
+
+</form>

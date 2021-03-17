@@ -1,0 +1,10 @@
+<h1>This is my song index page</h1>
+
+<%# iterate through that variable in the view %>
+<%# make it a list %>
+
+<ul>
+<% @songs.each do | song | %>
+<li> <%= song.title %> by <%= song.artist.name %> </li>
+<% end %>
+</ul>
