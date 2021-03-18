@@ -1,0 +1,29 @@
+<h1>  New Study Session </h1>
+
+
+<form action="/study_sessions" method= "post">
+       
+        <label>Date</label>
+        <input type ='text' name="date">
+        <br>
+        <label>Location</label>
+        <input type ='text' name="location">
+        <br>
+        <label>Length</label>
+        <input type ='number' name="length">
+        <br>
+        <label>Teacher</label>
+        <% @teachers.each do | teach | %>
+        <%= teach.name %>
+        <input type="checkbox" name="teacher[]" value=<%= teach.id%>  >
+        <% end %>
+        <br>
+        <label>Student</label>
+        <select name="student">
+        <% @students.each do | student |%>
+            <option value= <%= student.id%> > <%= student.name %> </option>
+        <% end %>
+        </select>
+        <br>
+        <input type="submit">
+</form>

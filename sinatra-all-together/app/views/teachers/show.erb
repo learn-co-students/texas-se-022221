@@ -1,0 +1,14 @@
+<h1> This is my teacher show page</h1>
+<hr>
+<h2> <%= @teacher.name %> </h2>
+
+<h3> <%= @teacher.name %> has study sessions with: </h3>
+<ul>
+    <% @teacher.study_sessions.each do | study_session | %>
+        <li>
+            <a href= "/students/<%=study_session.student.id%>">
+            <%= study_session.student.name %> 
+            </a>
+        </li>
+    <% end %>
+</ul>

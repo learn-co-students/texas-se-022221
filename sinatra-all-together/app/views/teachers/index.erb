@@ -1,0 +1,11 @@
+<h1>this is my teacher index</h1>
+<hr>
+<br/>
+
+<% @teachers.each do  | teach |  %>
+    <li> 
+        <a href="/teachers/<%=teach.id%>">
+            <%= teach.name %>
+        </a> 
+    </li>
+<% end %>
