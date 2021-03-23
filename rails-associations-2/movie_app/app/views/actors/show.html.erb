@@ -1,0 +1,12 @@
+<h1> <%= @actor.name %> </h1>
+<hr>
+
+<h2>Characters played: </h2>
+<% @actor.characters.each do | c | %>
+   <li> 
+   <strong> <%= c.name %> </strong> in <%= link_to c.movie.title, movie_path(c.movie) %>  
+   <%= form_with model: c, method: :delete do | f | %>
+   <%= f.submit "Delete Character" %>
+   <% end %>
+   </li>
+<% end %>
