@@ -1,0 +1,54 @@
+{
+  "cats": [
+    {
+      "id": 1,
+      "name": "Nawta Cat",
+      "age": 5,
+      "color": "Brown",
+      "livesLeft": 1,
+      "personality": "Doggish",
+      "breed": "Dog",
+      "image": "https://www.cdc.gov/healthypets/images/pets/angry-dog.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Macaroon",
+      "age": 9,
+      "color": "Grey",
+      "livesLeft": 9,
+      "personality": "Responsible",
+      "breed": "n/a",
+      "image": "https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Garfield",
+      "age": 42,
+      "color": "Orange",
+      "livesLeft": 0,
+      "personality": "Lazy",
+      "breed": "Tabby",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/250px-Garfield_the_Cat.svg.png"
+    },
+    {
+      "id": 4,
+      "name": "Calla",
+      "age": 1,
+      "color": "Orange",
+      "livesLeft": 6,
+      "personality": "Vigilant",
+      "breed": "Persian",
+      "image": " https://static.scientificamerican.com/sciam/cache/file/32665E6F-8D90-4567-9769D59E11DB7F26_[…]ce.jpg?w=590&h=800&7E4B4CAD-CAE1-4726-93D6A160C2B068B2"
+    },
+    {
+      "name": "Felix",
+      "age": "10",
+      "breed": "cartoon",
+      "color": "black",
+      "livesLeft": "9",
+      "personality": "baller",
+      "image": "https://m.media-amazon.com/images/I/41KSu1weSuL.jpg",
+      "id": 5
+    }
+  ]
+}
