@@ -1,0 +1,74 @@
+{
+  "dragons": [
+    {
+      "id": 1,
+      "name": "Toothless",
+      "description": "A Night Fury",
+      "image": "https://www.wikihow.com/images/b/b2/Draw-Toothless-Step-24.jpg",
+      "atWar": false
+    },
+    {
+      "id": 2,
+      "name": "Bozar",
+      "description": "An uninteresting dragon",
+      "image": "https://static.boredpanda.com/blog/wp-content/uploads/2015/05/What-are-dragons-doing-nowadays-fb3.jpg",
+      "atWar": true
+    },
+    {
+      "id": 3,
+      "name": "Tomar",
+      "description": "An interesting dragon",
+      "image": "https://media.giphy.com/media/bU660Y0VKPvCE/giphy.gif",
+      "atWar": false
+    },
+    {
+      "id": 4,
+      "name": "Trogdor",
+      "description": "the burniator",
+      "image": "https://i1.wp.com/zachonleadership.com/wp-content/uploads/2018/07/Trogdor.jpg?fit=1161%2C768&ssl=1",
+      "atWar": true
+    },
+    {
+      "id": 5,
+      "name": "Timbsghidora",
+      "description": "Dead ass a kaiju my guy",
+      "image": "https://pbs.twimg.com/media/D5fzcsAV4AA5EcQ.jpg",
+      "atWar": true
+    },
+    {
+      "id": 6,
+      "name": "Porunga",
+      "description": "yoked ass namekian wishy boi",
+      "image": "https://www.teahub.io/photos/full/338-3383023_dragon-ball-porunga-porunga-dragon-ball-z-dokkan.png",
+      "atWar": false
+    },
+    {
+      "name": "Mr Kitty",
+      "description": "simple",
+      "image": "https://www.google.com/search?q=cartmans+cat+name&sxsrf=ALeKk03yHuXJbZ1od1nmNT2IZTvBOSuhkQ:1619710295909&tbm=isch&source=iu&ictx=1&fir=RbdkCCLEK5op4M%252Cpq-jMW1gpOjNFM%252C_&vet=1&usg=AI4_-kTwfYk7HatRN260fSglUwCq20Ze7A&sa=X&ved=2ahUKEwj9-s2G46PwAhX0N30KHdJHB14Q9QF6BAgWEAE#imgrc=RbdkCCLEK5op4M",
+      "atWar": false,
+      "id": 7
+    },
+    {
+      "name": "Garfield",
+      "description": "Lazy",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/250px-Garfield_the_Cat.svg.png",
+      "atWar": false,
+      "id": 8
+    },
+    {
+      "name": "Garrr",
+      "description": "Oreng",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/250px-Garfield_the_Cat.svg.png",
+      "atWar": false,
+      "id": 9
+    },
+    {
+      "name": "Garr3",
+      "description": "the sequl of the sequel",
+      "image": " https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Garfield_the_Cat.svg/250px-Garfield_the_Cat.svg.png",
+      "atWar": false,
+      "id": 10
+    }
+  ]
+}
